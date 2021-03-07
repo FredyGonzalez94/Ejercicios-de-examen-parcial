@@ -1,1 +1,68 @@
 
+"""  #ejercicio 1#
+#impirmimos hola a todos y todas
+print('¡Hola a "todas" y "todos!"')  """
+
+"""  #ejercicio 2#
+#solicitamos los datos y luego los imprimimos
+print("Escriba su usuario")
+nombre = input()
+print("¡ hola", nombre,"!" )  """
+""" 
+#ejercicio 3#
+a= int()
+b= int()
+a = input("Escribe el valor de A")
+b = input("Escribe el valor de B")
+
+if a == 0 and b == 1:
+    print("El valor de Q es: 1",) """
+""" 
+ #Ejercicio 5#
+m= int(input("Escriba el numero  ")) #Solicito que escriban un numero para calcularlo
+suma = m * (m+1)/2  #Aplico la formula del ejercicio
+#Imprimo en pantalla
+print("El total de la suma es", suma) # el resultado me lo despliega en la pantalla 
+ """
+
+""" #Ejercicio 6
+#definimos las variables
+def imc(estatura, peso):
+    return (peso/2.20462262)/estatura**2 #retornamos ese valor por medio de esta formula
+#ingresamos los datos 
+peso = float(input("Escriba su pero en Libras: ") )
+estatura = float(input("Escriba su estatura en metros: "))
+indice = imc(estatura, peso)
+#imprimimos en pantalla el resultado 
+print("Su indice de masa corporal es: {:.2f}" .format(indice)) 
+ """
+""" #Ejercicio 7
+#definimos las variables
+a = int(  input   ("ingrese el valor para A   "))
+b = int(  input   ("Ingrese el valor para B   "))
+#imprimimos en la consola el resultado
+print("la division entre A y B es" , a // b)
+print("El sobrante de esa division es" , a % b)
+  """
+
+"""  #Ejercicio 8
+#declaramos la variables
+capitalInicial = float(input("Indique la cantidad a invertir:  "))
+tiempo = int(input("Indique la cantidad de años:  "))
+tasaInteres = float(input("Introduzca el interes anual de la inversion en %  "))
+resultado = eval(f"{capitalInicial}*(1+{tasaInteres}/100)**{tiempo}") #usamos esta formula
+
+
+print(f"el capital final de su inversion en {tiempo} años será de {resultado}") # impirmimos el texto y los resultados 
+print(resultado) #imprime resultado en la consola 
+ """
+""" #Ejercicio 10
+precio = float (input("indique la cantidad de memorias RAM usadas vendidas  "))
+print("Precio de una memoria RAM nueva es de US$20")
+precioNeto = eval(f"{precio}*20")
+print(f"El precio subtotal de la compra seria de US${precioNeto}")
+descuento = eval(f"{precioNeto}*0.6")
+print("Las memorias RAM tienen un descuento del 60%")
+print(f"El descuento por la compra seria de US${descuento}")
+precioTotal = eval(f"{precioNeto}-{descuento}")
+print(f"el precio total a pagar es de US${precioTotal}") """
